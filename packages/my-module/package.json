@@ -1,0 +1,28 @@
+{
+	"name": "@module/components",
+	"version": "0.0.1",
+	"main": "./lib/index.js",
+	"types": "./lib/types.d.ts",
+	"license": "MIT",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"tsc": "tsc",
+		"watch": "tsc -w"
+	},
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"@types/jest": "^25.2.2",
+		"@types/node": "^14.0.1",
+		"@types/react": "^16.9.35",
+		"@types/react-dom": "^16.9.8",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"tslib": "^2.0.0",
+		"typescript": "^3.9.2"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "my-mono",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"web": "lerna --scope=web-app run start",
+		"expo": "lerna --scope=ExpoApp run start --stream --",
+		"ionic": "lerna --scope=mobile-app run ionic --stream --",
+		"components": "lerna run watch"
+	},
+	"devDependencies": {
+		"lerna": "^3.21.0"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
